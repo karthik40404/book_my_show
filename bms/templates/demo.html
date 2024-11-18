@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <header1>
+        <div class="header-container">
+            <div class="logo">
+                <img src="{% static 'images/bookmyshow-logo-vector.svg' %}"  alt="BookMyShow">
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for Movies, Events, Plays, Sports and Activities">
+            </div>
+            <div class="location">
+                <select>
+                    <option value="kochi">Kochi</option>
+                </select>
+            </div>
+            <div class="sign-in">
+                <button>Sign in</button>
+            </div>
+            <div class="menu">
+                <div class="menu-icon">
+                    ☰
+                </div>
+            </div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Stream</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Plays</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Activities</a></li>
+                <li><a href="#">ListYourShow</a></li>
+                <li><a href="#">Corporates</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Gift Cards</a></li>
+            </ul>
+        </nav>
+    </header1>
+    <div class="cont2">
+        <img src="{% static './images/goat.avif' %}" alt="">
+        <div class="cont21">
+            <h1>THE GREATEST OF ALL TIME</h1>
+            <div class="but1">
+                <button class="b1">2D,IMAX</button>
+                <button class="b1">Tamil,Telugu</button>
+            </div>
+            <p>3h 3m•Action,Drama,Thriller•UA</p>
+            <div class="but2">
+                <button class="b2">Book Tickets</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="cont3">
+        <h2>About the movie</h2>
+        <p>Consequences of an unknown past haunt the present of a special anti-terrorist squad. How will they confront it?</p>
+        <hr>
+    </div>
+    <div class="cont4">
+        <div class="cont41">
+          <span><b>Cast</b></span>
+        </div>
+        <div class="cont42">
+          <div class="cont41castimg">
+            <img src="{% static './images/vijay-2461-20-12-2017-04-37-08.avif' %}" alt="" />Vijay
+          </div>
+          <div class="cont41castimg">
+            <img src="{% static './images/papapa.avif' %}" alt="" />Jayaram
+          </div>
+          <div class="cont41castimg">
+            <img src="{% static './images/yogi-babu-1055754-02-12-2021-12-53-23.avif' %}" alt="" />Yogi Babu
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="cont5">
+        <div class="cont51">
+          <span><b>Crew</b></span>
+        </div>
+        <div class="cont52">
+          <div class="cont51castimg">
+            <img src="{% static './images/venkat-prabhu-2446-11-04-2018-01-00-16.avif' %}" alt="" />Venkat prabu
+          </div>
+          <div class="cont51castimg">
+            <img src="{% static './images/archana-kalpathi-2037894-1718265919.avif' %}" alt="" />Archana
+          </div>
+          <div class="cont51castimg">
+            <img src="{% static './images/yuvan-shankar-raja-2551-24-03-2017-12-31-18.avif' %}" alt="" />Yuvan
+          </div>
+        </div>
+      </div>
+      <hr>  
+        <footer class="footer">
+            <div class="footer-container">
+                <!-- Company Info -->
+                <div class="footer-section company-info">
+                    <h2>Book My Show</h2>
+                    <p>Your one-stop destination for booking tickets to movies, concerts, and events.</p>
+                </div>
+        
+                <!-- Quick Links -->
+                <div class="footer-section quick-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Movies</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Offers</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                    </ul>
+                </div>
+        
+                <!-- Contact Information -->
+                <div class="footer-section contact-info">
+                    <h3>Contact Us</h3>
+                    <p>Email: <a href="mailto:support@bookmyshow.com">support@bookmyshow.com</a></p>
+                    <p>Phone: +1 (234) 567-8900</p>
+                    <p>Address: 123 Movie Lane, Cinema City, CA 12345</p>
+                </div>
+        
+                <!-- Social Media Links -->
+                <div class="footer-section social-media">
+                    <h3>Follow Us</h3>
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Instagram</a>
+                </div>
+            </div>
+        
+            <!-- Legal Links -->
+            <div class="footer-legal">
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookie Policy</a>
+            </div>
+        
+            <!-- Copyright -->
+            <div class="footer-copyright">
+                <p>&copy; 2024 Book My Show. All rights reserved.</p>
+            </div>
+        </footer>
+</body>
+</html>
