@@ -567,7 +567,7 @@ h1 {
     justify-content: center;
     border-radius: 2px;
     background: rgba(0, 0, 0, 0.78);
-    background: linear-gradient(105deg, rgba(0, 0, 0, 0.78) 40%, rgba(42, 8, 8, 0.17) 100%),url(../images/the-greatest-of-all-time.avif);
+    background: linear-gradient(105deg, rgba(0, 0, 0, 0.78) 40%, rgba(42, 8, 8, 0.17) 100%),url('../static/images/the-greatest-of-all-time.avif');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
